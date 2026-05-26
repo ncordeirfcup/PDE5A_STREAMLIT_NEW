@@ -612,6 +612,7 @@ def calcQSAR(ch, atom, MolWt, model_data, doLrp=True):
 
 def predict_only(mol):
     dec=process(mol)
+    return dec
 
 def mycalc(model_data, mol):
     m = Chem.MolFromSmiles(mol);
